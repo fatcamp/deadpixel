@@ -23,8 +23,8 @@
 
         // Create our dead pixel.
         var pixel = d.createElement("div");
-            pixel.style.width = "10px";
-            pixel.style.height = "10px";
+            pixel.style.width = "1px";
+            pixel.style.height = "1px";
             pixel.style.background = "red";
             pixel.style.position = "fixed";
             pixel.style.top = pixel_y + "px";
