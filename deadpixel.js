@@ -52,7 +52,6 @@
             pixel_x = ReadCookie("pixel_x");
             pixel_y = ReadCookie("pixel_y");
             
-
             // If no x cookie
             if(!pixel_x) {
                 // Grab a random x value from width
@@ -93,5 +92,5 @@
         w.addEventListener("load", AddPixel, false);
     }
 
-// Pass in document and undefined   
+// Pass in window, document and undefined   
 })(this, this.document);
